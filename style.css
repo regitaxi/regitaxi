@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: black;
+  color: white;
+  text-align: center;
+}
+.hero {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+h1 {
+  font-size: 3em;
+  letter-spacing: 2px;
+}
+.tagline {
+  color: #ffd400;
+  font-size: 1.4em;
+  margin: 20px 0;
+}
+.call {
+  background: #ffd400;
+  color: black;
+  padding: 20px 40px;
+  font-size: 1.8em;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 8px;
+}
+.call:hover {
+  background: #fff200;
+}
+.info {
+  margin-top: 40px;
+  opacity: 0.85;
+}
